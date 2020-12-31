@@ -44,7 +44,7 @@ font-family: 'NanumSquareRound',sans-serif;
 			</div>
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 31, 2020 23:59:59").getTime();
+var countDownDate = new Date("Dec 31, 2020 23:59:58").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -65,7 +65,7 @@ var x = setInterval(function() {
   + minutes + "분 " + seconds + "초 남았습니다!!";
     
   // If the count down is over, write some text 
-  if (distance < 0) {
+  if (distance < -2) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "2021년! <br>2021년에는 부디 코로나가 종식되길...";
   }
